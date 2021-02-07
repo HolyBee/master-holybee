@@ -183,7 +183,7 @@ body{
 
   top:350%;
   width:100%;
-  height:101%;
+  height:115%;
   left: 2.5%;
   overflow: hidden;
 }
@@ -693,8 +693,8 @@ body{
  .popUpG2{
    display: block;
    width:25%;
-   top:200%;
-   left:38%;
+   top:85%;
+   left:35%;
  }
  .popUpG2 img{
    width: 100%;
@@ -924,7 +924,7 @@ body{
   .popUpG2{
     display: block;
     width:35%;
-    top:140%;
+    top:60%;
     left:32%;
   }
   .popUpG2 img{
@@ -1154,7 +1154,7 @@ body{
 
   .gallery{
     top:110%;
-    width: 100%;
+    width: 110%;
     height:50%;
   }
   .popUpS{
@@ -1182,7 +1182,7 @@ body{
   .popUpG2{
     display: block;
     width:40%;
-    top:190%;
+    top:15%;
     left:31%;
   }
   .popUpG2 img{
@@ -1241,6 +1241,25 @@ body{
 
 
 @media screen and (max-width: 375px) {
+  .image-box {
+      left:20px;
+      margin: 20px;
+      position: relative;
+      margin: auto;
+      overflow: hidden;
+      width: 100px;
+      height:100px;
+  }
+  .image-box img {
+      overflow: hidden;
+      object-fit: cover;
+      max-width: 100%;
+      transition: all 0.3s;
+      display:inline-block;
+      width: 100%;
+      height: 100%;
+      transform: scale(1);
+  }
   .img-wrapper img {
     width:150px;
     height:150px;
@@ -1406,17 +1425,17 @@ body{
     height:50%;
   }
   .popUpS{
-    top:200%;
+    top:155%;
     width:55%;
     left:24%;
   }
   .exploin{
-    top:205%;
+    top:161%;
     font-size:2em;
     left: 4%;
   }
   .navbarB{
-    top:380%;
+    top:336%;
     height:5%;
   }
   .ad{
@@ -1430,8 +1449,8 @@ body{
   .popUpG2{
     display: block;
     width:40%;
-    top:190%;
-    left:31%;
+    top:70%;
+    left:28%;
   }
   .popUpG2 img{
     width: 100%;
@@ -1745,7 +1764,7 @@ body{
    height:63.3%;
  }
  .popUpG2{
-   top:445%;
+   top:85%;
    display: block;
    width:20%;
    left:41%;
@@ -1758,7 +1777,7 @@ body{
  }
  .exploin{
    top:515%;
-   font-size:2em;
+   font-size:4em;
    left:0.25%;
  }
  .navbarB{
