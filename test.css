@@ -1,0 +1,15 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.gallery{
+  position:absolute;
+  top:350%;
+  width:100%;
+  height:101%;
+  left: -5.5%;
+  overflow: hidden;
+}
